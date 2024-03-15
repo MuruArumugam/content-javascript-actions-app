@@ -6,7 +6,7 @@ jobs:
     name: A job to say hello
     steps:
     - name: Checkout
-      uses: uses: actions/checkout@v2 # This action checks-out your repository under $GITHUB_WORKSPACE, so your workflow can access it.
+      uses: uses: actions/checkout@v2 # $GITHUB_WORKSPACE
     - name: Hello world action step
       id: hello
       uses: ./
